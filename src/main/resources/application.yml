@@ -15,6 +15,10 @@ spring:
             client-id: id
             client-secret: secret
             scope: openid, profile, email
+          github:
+            client-id: id
+            client-secret: secret
+            scope: read:user,user:email
   data:
     redis:
       host: localhost
