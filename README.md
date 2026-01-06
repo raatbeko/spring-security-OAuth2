@@ -1,5 +1,3 @@
-git # README.md
-
 # Pet Project: Spring Boot + OAuth2/OIDC Login with Google
 
 This project was built as part of my advanced study of modern authentication and authorization mechanisms: **OAuth 2.0 + OpenID Connect + JWT**.
