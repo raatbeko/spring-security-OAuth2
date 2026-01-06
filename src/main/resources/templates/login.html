@@ -2,8 +2,20 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
 <h1>Login</h1>
-<a th:href="@{/oauth2/authorization/google}">
-    <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" alt="Sign in with Google"/>
-</a>
+
+<div>
+    <a th:href="@{/oauth2/authorization/google}">
+        <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" alt="Sign in with Google"/>
+    </a>
+</div>
+
+<div style="margin-top: 20px;">
+    <a th:href="@{/oauth2/authorization/github}">
+        <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png   "
+             width="50" alt="GitHub logo"/>
+        <br/>
+        Sign in with GitHub
+    </a>
+</div>
 </body>
 </html>

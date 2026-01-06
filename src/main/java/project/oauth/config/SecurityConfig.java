@@ -20,8 +20,9 @@ public class SecurityConfig {
                         .defaultSuccessUrl("/dashboard", true)
                 )
                 .logout(logout -> logout
+                        .logoutUrl("/logout")
                         .logoutSuccessUrl("/")
-                        .deleteCookies("JSESSIONID")
+                        .deleteCookies("SESSION")
                         .invalidateHttpSession(true)
                 );
 
