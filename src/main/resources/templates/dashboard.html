@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h1>Hello, <span th:text="${name}"></span>!</h1>
+<p>Email: <span th:text="${email}"></span> (Verified: <span th:text="${verified}"></span>)</p>
+<img th:src="${picture}" alt="Profile picture"/>
+<a href="/logout">Logout</a>
+</body>
+</html>
